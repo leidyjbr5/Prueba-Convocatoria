@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap');
+
+body {
+	margin: 0;
+	font-family: 'Lato', Helvetica, sans-serif;
+}
+
+h2 {
+  color: #07ABA0;
+  text-align: center;
+}
+
+.container{
+  display: block;
+}
+
+.wrap{
+  text-align: center;
+}
+
+.box{
+  padding: 20px;
+  margin: 20px;
+}
+.container .wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.wrap div {
+  margin-left: 20px;
+  align-items: center;
+  padding: 8px 5px;  
+}
+
+.wrap input{
+  height: 20px;
+  width: 200px;
+  border-radius: 5px;
+  border: solid 2px #07ABA0;
+}
+
+#input-box{
+  text-align: center;
+  padding: 2px 2px ;
+}
+
+.symbol{
+  font-weight: 700;
+	font-weight: 1.1em;
+  color: gray;
+  margin-left: 5px;
+}
+
+.buttons-container{
+  display: flex;
+  justify-content: center;
+}
+
+.button-primary input{
+	cursor: pointer;
+	font-size: 1.15em;
+	background-color: rgb(16, 122, 115);
+	color: #fff;
+  padding: 6px 85px;
+  margin-left: 20px;
+	font-family: 'Lato';
+  border-radius: 6px;
+  border: 2px solid rgb(16, 122, 115);
+}
+
+.plot-container{
+  display: flex;
+  justify-content: center;
+}
